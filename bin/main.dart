@@ -1,6 +1,6 @@
-import './person_class.dart';
-import './address_class.dart';
-import './employee_class.dart';
+import './classes/person_class.dart';
+import './classes/address_class.dart';
+import './classes/employee_class.dart';
 
 void main() {
   Address fatherAddress = Address(90, "Zarzouna", "Bizerte", 7021);
