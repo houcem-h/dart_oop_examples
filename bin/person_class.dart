@@ -5,7 +5,7 @@ class Person {
   String? _phone;
   Address? address;
 
-  Person(this.name, this._phone, this.address);
+  Person(this.name, this._phone, {this.address});
   Person.kid(this.name);
 
   // phone attribute getter & setter
