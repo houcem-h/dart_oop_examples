@@ -3,5 +3,6 @@ class Person {
   String? phone;
   String? address;
 
-  Person(this.name, {this.phone, this.address});
+  Person(this.name, this.phone, this.address);
+  Person.kid(this.name);
 }
