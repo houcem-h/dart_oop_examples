@@ -1,5 +1,6 @@
 import './person_class.dart';
 import './address_class.dart';
+import './employee_class.dart';
 
 void main() {
   Address fatherAddress = Address(90, "Zarzouna", "Bizerte", 7021);
@@ -9,4 +10,11 @@ void main() {
 
   Person son = Person.kid("Haroun Hedhly");
   print(son.name); // Haroun Hedhly
+
+  Employee developper = Employee("Lyne Hedhly", "99887766", 2345);
+  print(developper.phone); // 99887766
+
+  print(
+      "Developper's name: ${developper.name.toString().toUpperCase()} and she's paied ${developper.salary}");
+  // Developper's name: LYNE HEDHLY and she's paied 2345.0
 }
