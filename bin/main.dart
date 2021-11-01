@@ -18,5 +18,10 @@ void main() {
       "Developper's name: ${developper.name.toString().toUpperCase()} and she's paied ${developper.salary}");
   // Developper's name: LYNE HEDHLY and she's paied 2345.0
 
-  print(developper.speak("Hello World!")); // this persons says: Hello World!
+  // before overload speak method
+  //print(developper.speak("Hello World!")); // this persons says: Hello World!
+
+  // after overload speak method
+  print(developper.speak(
+      "Hello World!")); // Hi, this is an employee. this persons says: Hello World!
 }
