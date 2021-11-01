@@ -14,4 +14,6 @@ class Person {
   set phone(String value) {
     _phone = value;
   }
+
+  String speak(String sentence) => "this persons says: $sentence";
 }
