@@ -6,5 +6,5 @@ class Employee extends Person {
   Employee(String name, String phone, this.salary) : super(name, phone);
 
   String speak(String sentence) =>
-      "Hi, this is an employee. ${super.speak(sentence)}";
+      "Hi, this is an employee. he says: $sentence";
 }

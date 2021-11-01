@@ -21,7 +21,10 @@ void main() {
   // before overload speak method
   //print(developper.speak("Hello World!")); // this persons says: Hello World!
 
-  // after overload speak method
-  print(developper.speak(
-      "Hello World!")); // Hi, this is an employee. this persons says: Hello World!
+  // after overload speak method : option 1
+  // print(developper.speak("Hello World!")); // Hi, this is an employee. this persons says: Hello World!
+
+  // after overload speak method : option 2
+  print(developper
+      .speak("Hello World!")); // Hi, this is an employee. he says: Hello World!
 }
