@@ -1,7 +1,9 @@
+import './address_class.dart';
+
 class Person {
   String? name;
   String? _phone;
-  String? address;
+  Address? address;
 
   Person(this.name, this._phone, this.address);
   Person.kid(this.name);

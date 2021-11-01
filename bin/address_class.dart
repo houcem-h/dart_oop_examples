@@ -2,7 +2,7 @@ class Address {
   int _houseNumber;
   String _street;
   String _city;
-  String _postalCode;
+  int _postalCode;
 
   Address(this._houseNumber, this._street, this._city, this._postalCode);
 
@@ -10,7 +10,7 @@ class Address {
   int get houseNumber => _houseNumber;
   String get street => _street;
   String get city => _city;
-  String get postalCode => _postalCode;
+  int get postalCode => _postalCode;
 
   // setters
   set houseNumber(int value) {
@@ -25,7 +25,7 @@ class Address {
     _city = value;
   }
 
-  set postalCode(String value) {
+  set postalCode(int value) {
     _postalCode = value;
   }
 }
